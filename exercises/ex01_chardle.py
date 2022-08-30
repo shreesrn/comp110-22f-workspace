@@ -4,11 +4,11 @@ __author__ = "730616899"
 
 word: str = input("Enter a 5-character word. ")
 if len(word) != 5: 
-    exit("Error: Word must contain 5 characters")
+    exit("Error: Word must contain 5 characters ")
 
 character: str = input("Enter a single character. ")
 if len(character) != 1:
-    exit("Error: Character must be a single character.")
+    exit("Error: Character must be a single character. ")
 
 count: int = 0
 
